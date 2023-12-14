@@ -40,7 +40,7 @@ namespace SalesWebMvc.Migrations
 
                     b.Property<int?>("SellerId");
 
-                    b.Property<int>("Staus");
+                    b.Property<int>("Status");
 
                     b.HasKey("Id");
 
